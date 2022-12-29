@@ -1,1 +1,6 @@
 # Seating-Probability
+**There are *n* passengers waiting to be seated in a plane with *n* seats**. Both passengers and seats are assigned IDs from 1 to *n*. Passengers will be seated one by one in the order of increasing IDs. Ideally, all passengers will be seated in their assigned seats. For simplicity, we can assume that the *ith* passenger should be seated in the *ith* seat according to the tickets.
+
+What makes the things complicated is that the first passenger with ID 1 lost the ticket and can only pick a random seat to sit on. All other passengers are so kind such that if they find their assigend seats taken, they will not ask people to leave. Instead, they will also randomly pick another empty seat to sit on. The pilot is a probability lover and wants to calculate the probability that the last *k* passengers will all be seated in their assigned seats. **It is guaranteed that *k* is a positive integer less than *n***. Notice that, theoretically, it is possible that all the *n* passengers sit on assigned seats such that *k* should be allowed to be equal to *n*. However, it is exactly the same as the case where *k* is equal to *n*-1, because if the last *n-1* passengers sit on the correct seats, the first passenger must be seated correctly as well. Thus, the case of *k* equal to *n* is ignored.
+
+Can you help the pilot get the problem resolved?
